@@ -8,7 +8,7 @@ $server = '10.50.0.213';
 
 // User name for login request, in the form user@organization
 // System administrator must log in as a member of the System organization
-$user = 'vcloudsu@system';
+$user = 'elasticCloud@system';
 
 // Password for user
 $pswd = 'IDnnANV7Y9JKaRjvvyLsCjTwOIwra-kf';
