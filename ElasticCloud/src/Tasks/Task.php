@@ -1,7 +1,7 @@
 <?php
 
 abstract class Task {
-	public function run() {}
-	public function stop() {}
+	abstract public function run();
+	abstract public function stop();
 }
 ?>

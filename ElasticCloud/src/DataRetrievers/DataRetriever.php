@@ -1,8 +1,8 @@
 <?php
 abstract class DataRetriever {
-	public function getCloudManager() {}
-	public function getHypervisorManager() {}
-	public function getBalancerManager() {}
-	public function loginStorage() {}
+	abstract public function getCloudManager();
+	abstract public function getHypervisorManager();
+	abstract public function getBalancerManager();
+	abstract public function loginStorage();
 }
 ?>

@@ -1,10 +1,10 @@
 <?php
 abstract class CloudManager {
-	public function createVM($vmtemplate) {}
-	public function destroyVM($vmname) {}
-	public function stopVM($vmname) {}
-	public function startVM($vmname) {}
-	public function getVMList($orgname, $vappname) {}
-	public function getFreeIP($vappname) {}
+	abstract public function createVM($vmtemplate);
+	abstract public function destroyVM($vmname);
+	abstract public function stopVM($vmname);
+	abstract public function startVM($vmname);
+	abstract public function getVMList($orgname, $vappname);
+	abstract public function getFreeIP($vappname);
 }
 ?>

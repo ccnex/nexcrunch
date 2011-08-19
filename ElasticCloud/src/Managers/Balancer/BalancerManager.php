@@ -1,6 +1,6 @@
 <?php
 abstract class BalancerManager {
-	public function addIP($vs, $ip) {}
-	public function removeIP($vs, $ip) {}
+	abstract public function addIP($vs, $ip);
+	abstract public function removeIP($vs, $ip);
 }
 ?>
